@@ -129,12 +129,12 @@ function Library:Window(options)
     Body.AnchorPoint = Vector2.new(0.5, 0.5)
     Body.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
     Body.BorderSizePixel = 0
-    Body.AnchorPoint = 0.2
+    Body.Transparency - 0.2
     Body.Position = UDim2.new(0.465730786, 0, 0.5, 0)
     Body.Size = UDim2.new(0, 658, 0, 516)
     Body.CornerRadius = UDim.new(0, 8)
 
-    bodyCorner.CornerRadius = UDim.new(0, 8)
+    bodyCorner.CornerRadius = UDim.new(0, 4)
     bodyCorner.Name = "bodyCorner"
     bodyCorner.Parent = Body
 
